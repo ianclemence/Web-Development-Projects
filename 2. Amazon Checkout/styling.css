@@ -96,8 +96,8 @@ input, textarea, select{
 }
 .submit button{
     background-color: deepskyblue;
-    width: 100%;
-    color: azure;
-    font-size: 1.7em;
+    width: 20%;
+    border-radius: 10px;
+    font-size: 1em;
     border: none;
 }
