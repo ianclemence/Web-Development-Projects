@@ -1,21 +1,33 @@
 /*styling.css*/
 body{
     font: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 #container {
-    width: 1050px;
-/*    border: 1px solid grey;*/
+    width: 90%;
+    /*    border: 1px solid grey;*/
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 #header{
-    height: 100px;
+    /*    height: 100px;*/
     padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #brand{
-    float: left;   
+    /*    float: left;   */
+    flex: 50%;
 }
 
 h1 a{
@@ -26,15 +38,19 @@ h1 a{
 }
 
 #searchBox{
-    float: right;
+    /*    float: right;*/
+    flex: 50%;
     background: linear-gradient(#E4F2B9, #B7E953);
     background: -webkit-linear-gradient(#E4F2B9, #B7E953);
     background: -o-linear-gradient(#E4F2B9, #B7E953);
     background: -moz-linear-gradient(#E4F2B9, #B7E953);
-    width: 400px;
-    height: 50px;
-    padding: 20px 20px 0 20px;
-    margin-top: 20px;
+    min-width: 400px;
+    /*    height: 50px;*/
+    padding: 20px;
+    /*    margin-top: 20px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text{
@@ -62,29 +78,29 @@ h1 a{
 }
 
 #menu{
-    height: 70px;
+/*    height: 150px;*/
     background: linear-gradient(#F8F594, #D5D533);
     background: -webkit-linear-gradient(#F8F594, #D5D533);
     background: -o-linear-gradient(#F8F594, #D5D533);
     background: -moz-linear-gradient(#F8F594, #D5D533);
-    padding: 7px 0;
-}
-ul{
-    list-style: none;   
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#menu ul li{
-    float: left;
+
+#menu a{
+    /*    float: left;*/
     padding: 0 30px;
     height: 30px;
     border-right: 1px solid #5d12e7;
 }
 
-#menu ul li:last-child{
+#menu a:last-child{
     border-right: none;   
 }
 
-#menu ul li a{
+#menu a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17px;
@@ -97,10 +113,20 @@ ul{
     transition: font-size 0.3s ease;
 }
 
-#menu ul li a:hover, #menu ul li a.active{
+#menu a:hover, #menu a.active{
     font-size: 20px;
     font-weight: bold;
     color: #B314DB;
+}
+/*small screens: vertical menu*/
+@media screen and (max-width: 700px){
+    #menu{
+        flex-direction: column;
+        align-content: center;
+    }
+    #menu a{
+        border-right: none;
+    }
 }
 
 #introduction{
@@ -124,12 +150,22 @@ ul{
     text-align: justify;
 }
 
+/*sidebars*/
+.sidebars{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebarWrapper{
+    padding: 5px;
+    flex: 50%;
+}
 .sidebar{
-    height: 500px;
-    width: 450px;
+    height: 100%;
+    width: 100%;
     border: 1px solid #BAF46F;
     border-radius: 20px;
     padding: 10px 30px;
+/*    flex: 50%;*/
 }
 
 .sidebar h3{
@@ -168,6 +204,7 @@ ul{
 }
 
 
+/*
 #leftsidebar{
     float: left;   
 }
@@ -175,6 +212,7 @@ ul{
 #rightsidebar{
     float: right;
 }
+*/
 
 .footer{
     height: 60px;
@@ -183,5 +221,5 @@ ul{
     background: -o-linear-gradient(#F6F390, #D5D533);
     background: -moz-linear-gradient(#F6F390, #D5D533);
     padding: 10px 30px;
-    margin-top: 15px
+    margin-top: auto;
 }
