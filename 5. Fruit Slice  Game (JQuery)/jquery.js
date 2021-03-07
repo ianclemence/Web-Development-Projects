@@ -70,5 +70,5 @@ function startAction(){
 //generate a random fruit
 
 function chooseFruit(){
-    $("#fruit1").attr('src', 'images/' + fruits[] +'.png');
+    $("#fruit1").attr('src', 'images/' + fruits[Math.round(9*Math.random())] +'.png');
 }
