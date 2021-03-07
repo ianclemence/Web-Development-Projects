@@ -61,5 +61,5 @@ function addHearts(){
 
 //start sending fruits
 function startAction(){
-    $("#fruitsContainer").append('<img src="images/apple.png" class="life">');
+    $("#fruitsContainer").append('<img src="images/apple.png" class="fruit">');
 }
