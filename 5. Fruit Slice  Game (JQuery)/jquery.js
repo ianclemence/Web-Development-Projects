@@ -1,6 +1,7 @@
 var playing = false;
 var score; 
 var trialsleft;
+var fruits = ['apple', 'banana', 'cherries', 'grapes', 'mango', 'orange', 'orange', 'peach', 'pear', 'pineapple', 'watermelon'];
 $(function(){
     
     //click on start reset button
@@ -61,5 +62,13 @@ function addHearts(){
 
 //start sending fruits
 function startAction(){
-    $("#fruitsContainer").append('<img src="images/apple.png" class="fruit">');
+    $("#fruit1").show();
+    chooseFruit(); //choose a random fruit
+}
+
+
+//generate a random fruit
+
+function chooseFruit(){
+    $("#fruit1").attr('src', 'images/' + fruits[] +'.png');
 }
