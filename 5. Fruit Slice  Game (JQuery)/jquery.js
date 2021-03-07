@@ -53,6 +53,6 @@ $(function(){
 
 function addHearts(){
     for(i = 0; i < trialsleft; i++){
-                   $("#trialsleft").append('<img src="images/heart.png>');
+                   $("#trialsleft").append('<img src="images/heart.png" class="life">');
                }
 }
