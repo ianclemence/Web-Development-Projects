@@ -50,7 +50,7 @@ html{
     display: none;
 }
 
-#question{
+#fruitsContainer{
     width: 650px;
     height: 400px;
     margin: 50px auto 10px auto;

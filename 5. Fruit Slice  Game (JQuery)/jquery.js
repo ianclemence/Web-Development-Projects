@@ -24,17 +24,19 @@ $(function(){
                $("#trialsleft").show();
                trialsleft = 3;
                addHearts();
+               
+               //change button text to "reset game"
+               $("#startreset").html("Reset Game");
+               
+               
+               //start sending fruits
+               startAction();
            }
     });
 });
 
 
-    //are we playing?
-        //yes
-            //reload page
-        //no
-            //show trials left
-            //change button text to "reset game"
+            
             //step 1. create a random fruit
             //define a random step
             //step 2. move fruit down one step every 30 seconds
@@ -55,4 +57,9 @@ function addHearts(){
     for(i = 0; i < trialsleft; i++){
                    $("#trialsleft").append('<img src="images/heart.png" class="life">');
                }
+}
+
+//start sending fruits
+function startAction(){
+    $("#fruitsContainer").append('<img src="images/apple.png" class="life">');
 }
