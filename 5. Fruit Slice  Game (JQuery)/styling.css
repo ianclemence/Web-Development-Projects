@@ -62,6 +62,8 @@ html{
     text-align: center;
     font-family: cursive, sans-serif;
     color: black;
+    position: relative;
+    overflow: hidden;
 }
 
 #instruction{
@@ -142,7 +144,7 @@ html{
     -ms-transition: all 0.2s;   
 }
 
-#trialsleft{
+#trialsLeft{
     width: 80px;
     padding: 10px;
     position: absolute;
@@ -168,7 +170,7 @@ html{
     text-transform: uppercase;
     position: absolute;
     top: 170px;
-    left: 140px;
+    left: 145px;
     z-index: 2;
     display: none;
     
@@ -178,4 +180,9 @@ html{
     width: 16px;
     height: 16px;
     margin: 0 5px;
+}
+
+.fruit{
+    display: none;
+    position: absolute;
 }
