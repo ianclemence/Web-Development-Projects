@@ -55,3 +55,19 @@ body{
     max-height: 270px;
     overflow-y: scroll;
 }
+
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+
+.laptimetitle{
+    font-size: 1.5em;
+    float: left;
+}
+
+.laptime{
+    font-size: 2em;
+    float: right;
+}
