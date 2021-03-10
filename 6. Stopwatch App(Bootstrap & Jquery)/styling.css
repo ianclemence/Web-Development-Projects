@@ -49,3 +49,9 @@ body{
     background-color: #fff;
     color: #d7A04e;
 }
+
+/*Laps Box*/
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+}
