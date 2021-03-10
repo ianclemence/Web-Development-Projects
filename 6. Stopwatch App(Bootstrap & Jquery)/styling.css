@@ -1,0 +1,29 @@
+body{
+    background: url(images/nature.jpg)
+        center center fixed;
+    background-size: cover;
+    color: #fff;
+    
+}
+
+
+/*Title*/
+#header {
+    text-align: center;
+    font-size: 7vw;
+    
+}
+
+
+/*Lap*/
+#lap{
+    text-align: right;
+    font-size: 4vw;
+    
+}
+
+/*Lap*/
+#time{
+    text-align: center;
+    font-size: 15vw;
+}
