@@ -119,7 +119,7 @@ $(function(){
            var myLapDetails =
                '<div class="lap">'+
                     '<div class="laptimetitle">'+
-                        'Lap'+ lapNumber +
+                        'Lap '+ lapNumber +
                     '</div>'+
                     '<div class="laptime">'+
                         '<span>'+ format(lapMinutes) +'</span>'+
