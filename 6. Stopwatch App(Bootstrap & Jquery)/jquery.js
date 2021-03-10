@@ -19,7 +19,7 @@ $(function(){
         //stop counter
     
     //click on resumeButton
-        //show resume and reset buttons
+        //show stop and lap buttons
         //start action
     
     //click on resetbutton
