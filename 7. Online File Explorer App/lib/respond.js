@@ -16,7 +16,6 @@ const staticBasePath = path.join(__dirname, '..', 'static');
 //Following is function passed to createServer used to create the server
 
 const respond = (request, response) => {
-    console.log('respond fired!');
 //before working with the pathname, you need to decode it
 
 let pathname = url.parse(request.url, true).pathname;
