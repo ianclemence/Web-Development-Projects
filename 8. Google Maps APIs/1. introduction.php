@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Introduction TO Coogle Maps Javascript API</title>
+<title>Introduction To Google Maps Javascript API</title>
 <meta name="viewport" content="initial-scale=1, user-scaable=no">
 <meta charset="UTF-8">
 </head>
