@@ -31,7 +31,7 @@ body{
 
 /*output box*/
 #output{
-       text-align: center;
+    text-align: center;
     font-size: 2em;
     margin: 20px auto;
 }
