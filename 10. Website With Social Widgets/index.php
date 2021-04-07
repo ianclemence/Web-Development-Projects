@@ -78,7 +78,7 @@
           <div class="row">
               <!--facebook button-->
               <div class="col-sm-offset-3 col-sm-2">
-                  <div class="fb-like" data-href="https://completewebdevelopmentcourse.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                  <div class="fb-like" data-href="#" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
               
               </div>
               <!--G+ button-->
@@ -87,13 +87,13 @@
               </div>
               <!--Twitter button-->
               <div class="col-sm-2">
-                  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://completewebdevelopmentcourse.com">Tweet</a>
+                  <a href="https://twitter.com/share" class="twitter-share-button" data-url="#">Tweet</a>
               </div>
           </div>
           
           <!--Twitter timeline-->
           <div>
-               <a class="twitter-timeline" href="https://twitter.com/Learn_OpenDoors" data-widget-id="659188207645495297" data-chrome="nofooter noborders" data-tweet-limit="3">Tweets by @Learn_OpenDoors</a>
+               <a class="twitter-timeline" href="https://twitter.com/iamchagga" data-widget-id="659188207645495297" data-chrome="nofooter noborders" data-tweet-limit="3">Tweets by @Learn_OpenDoors</a>
  
           </div>
       </div>
