@@ -49,7 +49,7 @@ directionsDisplay.setMap(map);
 function calcRoutre(){
     var request = {
         origin: "New York",
-        destintion: "Toronto",
+        destination: "Toronto",
         travelMode: google.maps.TravelMode.DRIVING, //WALKING, BICYCLING, TRANSIT
         unitSystem: google.maps.UnitSystem.METRIC
     }
