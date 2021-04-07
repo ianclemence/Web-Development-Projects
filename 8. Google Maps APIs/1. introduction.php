@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Introduction To Google Maps Javascript API</title>
-<meta name="viewport" content="initial-scale=1, user-scaable=no">
+<meta name="viewport" content="initial-scale=1.0, user-scaable=no">
 <meta charset="UTF-8">
 </head>
 <style>
@@ -15,7 +15,7 @@ html, body{
 </style>
 <body>
 <div id="map"></div>
-<script src="https://maps.gogleapis.com/maps/api/js?key=AIzaSyAyCj4_2iHHOnFNhNMoSSJzNRt2mVBPBnc">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyCj4_2iHHOnFNhNMoSSJzNRt2mVBPBnc">
 </script>
 
 <script>
