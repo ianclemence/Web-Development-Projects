@@ -93,7 +93,7 @@
           
           <!--Twitter timeline-->
           <div>
-               <a class="twitter-timeline" href="https://twitter.com/iamchagga" data-widget-id="659188207645495297" data-chrome="nofooter noborders" data-tweet-limit="3">Tweets by @Learn_OpenDoors</a>
+               <a class="twitter-timeline" href="https://twitter.com/jack" data-widget-id="659188207645495297" data-chrome="nofooter noborders" data-tweet-limit="3">Tweets by @Learn_OpenDoors</a>
  
           </div>
       </div>
