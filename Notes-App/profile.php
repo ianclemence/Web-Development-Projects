@@ -247,7 +247,7 @@ if ($count == 1) {
   <div class="footer">
     <div class="container">
       <p>Ian Clemence Copyright &copy; 2020-<?php $today = date("Y");
-                                                      echo $today ?>.</p>
+                                            echo $today ?>.</p>
     </div>
   </div>
 
